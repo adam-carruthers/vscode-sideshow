@@ -4,4 +4,6 @@ import Highlight from "reveal.js/plugin/highlight/highlight.esm";
 let deck = new Reveal();
 deck.initialize({
   plugins: [Highlight],
+  width: 500,
+  height: 700,
 });
